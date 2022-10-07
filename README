@@ -1,0 +1,14 @@
+A program that scrapes gpu prices from best buy and adds them to a database file. Old prices will be overwritten if the sku name matches.
+
+To run, perform the following:
+
+Update your path environment variable by running
+"source ./GDPath.sh"
+from the python-components directory
+The default path in this script is the directory you are currently in.
+This script requires GECKODRIVER to run, which is not included for licensing reasons.
+
+Assuming the default directory structure, one can then run
+./gpu-script.sh
+and the program will run in a different window
+
